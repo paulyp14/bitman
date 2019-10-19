@@ -1,3 +1,4 @@
+"""
 from bitstring import Bits
 from enum import Enum
 from bit_representations import bit_manipulation as bm
@@ -10,7 +11,7 @@ class BitTypes(Enum):
     FloatingPoint = 5
 
 
-class BitString():
+class BitString:
 
     def __init__(self, bits, bit_type, bit_limit=None):
         self.bits = bits
@@ -62,3 +63,4 @@ class BitString():
         else:
             raise KeyError('No valid BitType given')
         self.type_ = bit_type
+"""
