@@ -11,4 +11,3 @@ class TwosComplement(OnesComplement):
             self.set_magnitude(bin_add(flip_bits(self.bits), '1'))
             self.magnitude *= -1
             self.is_negative = True
-            
